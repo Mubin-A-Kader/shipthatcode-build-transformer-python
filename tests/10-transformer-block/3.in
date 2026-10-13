@@ -1,0 +1,3 @@
+SEED 42
+DIM 4 HEADS 1 FF 6
+X 0.25,-1,2,0.5

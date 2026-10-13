@@ -1,0 +1,66 @@
+{
+  "course": "build-transformer",
+  "language": "python",
+  "language_id": 1071,
+  "entrypoint": "main.py",
+  "version": 1,
+  "content_hash": "4fe7b7e94e3f85db",
+  "lessons": [
+    {
+      "slug": "what-is-transformer",
+      "tests_hash": "73d9de8e9844"
+    },
+    {
+      "slug": "embeddings",
+      "tests_hash": "602e9c160ded"
+    },
+    {
+      "slug": "layer-norm",
+      "tests_hash": "4003630334ba"
+    },
+    {
+      "slug": "positional-encoding",
+      "tests_hash": "bccf644c4465"
+    },
+    {
+      "slug": "self-attention",
+      "tests_hash": "49a9bdf1c315"
+    },
+    {
+      "slug": "multi-head",
+      "tests_hash": "366c69fc5053"
+    },
+    {
+      "slug": "ffn",
+      "tests_hash": "49effc1b5877"
+    },
+    {
+      "slug": "causal-masking",
+      "tests_hash": "3d4de1ef3e10"
+    },
+    {
+      "slug": "residual-connections",
+      "tests_hash": "870dc5d48c59"
+    },
+    {
+      "slug": "transformer-block",
+      "tests_hash": "1eff5b7203c6"
+    },
+    {
+      "slug": "training-llm",
+      "tests_hash": "2ab2b356ad56"
+    },
+    {
+      "slug": "inference-sampling",
+      "tests_hash": "b8e27cf78dbd"
+    },
+    {
+      "slug": "topk-sampling",
+      "tests_hash": "038efbbc8228"
+    },
+    {
+      "slug": "production-llm",
+      "tests_hash": "16036b9ac29c"
+    }
+  ]
+}

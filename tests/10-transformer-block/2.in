@@ -1,0 +1,4 @@
+SEED 7
+DIM 2 HEADS 1 FF 4
+X 1,-1
+X 0.5,2
