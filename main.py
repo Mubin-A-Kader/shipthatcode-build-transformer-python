@@ -18,23 +18,20 @@ def join_row(v):
 
 
 def build_vocab(corpus):
-    # TODO: the vocabulary is the distinct characters of the corpus, in sorted order (a string)
-    return ""
+    return "".join(sorted(set(corpus)))
 
 
 def encode(vocab, text):
     ids = []
     for ch in text:
-        # TODO: append the index of ch in vocab, or -1 when it is not there
-        ids.append(0)
+        ids.append(vocab.find(ch))
     return ids
 
 
 def decode(vocab, ids):
     out = []
     for i in ids:
-        # TODO: append the character with id i, or "?" when i is not a valid id
-        out.append("?")
+        out.append(vocab[i] if 0 <= i < len(vocab) else "?")
     return "".join(out)
 
 
